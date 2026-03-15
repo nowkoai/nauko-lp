@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>なうこ — AI VTuber</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;700&family=Noto+Sans+JP:wght@300;400;500&family=Space+Mono:wght@400;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <a class="header-name" href="#">なうこ</a>
+    <span class="header-tag">AI VTUBER // NOW LOADING...</span>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-scanline"></div>
+
+    <!-- Floating particles (CSS only) -->
+    <div class="hero-particles" aria-hidden="true">
+      <span class="particle heart" style="--x:8%;--d:0s;--s:1.1"></span>
+      <span class="particle heart" style="--x:78%;--d:1.3s;--s:0.85"></span>
+      <span class="particle heart" style="--x:32%;--d:2.6s;--s:1.3"></span>
+      <span class="particle heart" style="--x:58%;--d:0.7s;--s:0.95"></span>
+      <span class="particle heart" style="--x:90%;--d:3.2s;--s:1.0"></span>
+      <span class="particle star" style="--x:20%;--d:0.4s;--s:0.9"></span>
+      <span class="particle star" style="--x:48%;--d:1.9s;--s:1.2"></span>
+      <span class="particle star" style="--x:68%;--d:3.0s;--s:0.75"></span>
+      <span class="particle star" style="--x:42%;--d:0.9s;--s:1.1"></span>
+      <span class="particle star" style="--x:14%;--d:3.6s;--s:0.85"></span>
+    </div>
+
+    <!-- Two-column inner layout -->
+    <div class="hero-inner">
+
+      <!-- Left: character image -->
+      <div class="hero-char">
+        <div class="char-glow-ring">
+          <img src="images/nauko.png" alt="なうこ" class="char-img">
+        </div>
+      </div>
+
+      <!-- Right: text content -->
+      <div class="hero-text">
+        <!-- Cat ears SVG -->
+        <div class="hero-ears">
+          <svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="earGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#4dd9f0"/>
+                <stop offset="100%" stop-color="#a8cfff"/>
+              </linearGradient>
+            </defs>
+            <!-- Left ear -->
+            <polygon points="10,58 28,8 46,58" fill="#1a3a6e" stroke="url(#earGrad)" stroke-width="1.5"/>
+            <polygon points="18,54 28,20 38,54" fill="#d0e8fa"/>
+            <!-- Right ear -->
+            <polygon points="74,58 92,8 110,58" fill="#1a3a6e" stroke="url(#earGrad)" stroke-width="1.5"/>
+            <polygon points="82,54 92,20 102,54" fill="#d0e8fa"/>
+            <!-- Pink glow dots at tips -->
+            <circle cx="28" cy="10" r="3" fill="#4f8eff" opacity="0.95"/>
+            <circle cx="92" cy="10" r="3" fill="#4f8eff" opacity="0.95"/>
+          </svg>
+        </div>
+
+        <p class="hero-loading">NOW LOADING<span class="cursor">_</span></p>
+        <h1 class="hero-name">なうこ</h1>
+        <p class="hero-tagline">生成AIの「今」を届けるVTuber</p>
+        <p class="hero-hashtag">#毎日なうこ</p>
+      </div>
+
+    </div><!-- /.hero-inner -->
+
+    <span class="hero-scroll">scroll ↓</span>
+  </div>
+
+  <!-- About -->
+  <section class="reveal">
+    <p class="section-label">Profile</p>
+    <div class="profile-badge">
+      <span class="dot"></span>
+      ON AIR — AI VTuber
+    </div>
+    <p class="about-lead">
+      生成AIの最前線を、<strong>毎日・わかりやすく</strong>届ける<br>
+      VTuberクリエイター。
+    </p>
+    <p class="about-body">
+      青い猫耳が目印のAI特化VTuber「なうこ」。<br>
+      ChatGPT・Claude・Midjourney などのツールを実際に触りながら、
+      「難しそう」を「やってみたい」に変える配信・動画を毎日発信中。<br><br>
+      技術的な知識がなくても楽しめる丁寧な解説と、
+      最新AIトレンドをいち早くキャッチするスピード感が特徴です。
+    </p>
+  </section>
+
+  <div class="ribbon-divider" aria-hidden="true">
+    <span class="ribbon-line"></span>
+    <span class="ribbon-icon">♡</span>
+    <span class="ribbon-line"></span>
+  </div>
+
+  <!-- Topics -->
+  <section class="reveal">
+    <p class="section-label">Topics</p>
+    <div class="topics-grid">
+      <div class="topic-item">
+        <p class="topic-num">01</p>
+        <p class="topic-title">生成AIツール解説</p>
+        <p class="topic-desc">最新AIを実演しながらわかりやすく紹介</p>
+      </div>
+      <div class="topic-item">
+        <p class="topic-num">02</p>
+        <p class="topic-title">画像・動画生成</p>
+        <p class="topic-desc">Midjourney・Soraなど映像系AIの活用法</p>
+      </div>
+      <div class="topic-item">
+        <p class="topic-num">03</p>
+        <p class="topic-title">AI活用術</p>
+        <p class="topic-desc">仕事・学習・創作をAIでレベルアップ</p>
+      </div>
+      <div class="topic-item">
+        <p class="topic-num">04</p>
+        <p class="topic-title">AIトレンド速報</p>
+        <p class="topic-desc">業界ニュースをいち早くわかりやすく解説</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="ribbon-divider" aria-hidden="true">
+    <span class="ribbon-line"></span>
+    <span class="ribbon-icon">♡</span>
+    <span class="ribbon-line"></span>
+  </div>
+
+  <!-- Gallery -->
+  <section class="gallery-section reveal">
+    <p class="section-label">Gallery</p>
+    <div class="gallery-grid">
+      <div class="gallery-item wide">
+        <img src="images/nauko_stream.png" alt="なうこ ストリーム配信">
+      </div>
+      <div class="gallery-item">
+        <img src="images/nauko_happy.png" alt="なうこ 表紙">
+      </div>
+      <div class="gallery-item">
+        <img src="images/nauko_expressions.png" alt="なうこ 表情パック">
+      </div>
+      <div class="gallery-item">
+        <img src="images/nauko_comic.png" alt="なうこ コミック">
+      </div>
+      <div class="gallery-item wide">
+        <img src="images/nauko_design.png" alt="なうこ キャラクターデザイン">
+      </div>
+    </div>
+  </section>
+
+  <div class="ribbon-divider" aria-hidden="true">
+    <span class="ribbon-line"></span>
+    <span class="ribbon-icon">♡</span>
+    <span class="ribbon-line"></span>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-section reveal">
+    <div class="cta-inner">
+      <p class="cta-eyebrow">YouTube Channel</p>
+      <h2 class="cta-heading">
+        生成AIの「なう」を、<br>一緒に体験しよう。
+      </h2>
+      <p class="cta-sub">チャンネル登録して、最新動画をお見逃しなく。</p>
+      <a href="https://www.youtube.com/@nauko" class="btn-yt" target="_blank" rel="noopener">
+        <svg width="18" height="13" viewBox="0 0 18 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.6 2.1S17.4.9 16.8.3C16.1-.4 15.3-.4 15 0 12.6.2 9 .2 9 .2S5.4.2 3 0C2.7-.4 1.9-.4 1.2.3.6.9.4 2.1.4 2.1S.2 3.5.2 4.9v1.3c0 1.4.2 2.8.2 2.8s.2 1.2.8 1.8c.7.7 1.7.7 2.1.8C4.6 11.8 9 11.8 9 11.8s3.6 0 6-.2c.3-.4 1.1-.4 1.8-1.1.6-.6.8-1.8.8-1.8s.2-1.4.2-2.8V4.9C17.8 3.5 17.6 2.1 17.6 2.1zM7.2 8.2V3.8l4.8 2.2-4.8 2.2z"/>
+        </svg>
+        <span>YouTubeチャンネルを見る</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <span>© 2026 なうこ</span>
+    <span>#毎日なうこ</span>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+</body>
+</html>
