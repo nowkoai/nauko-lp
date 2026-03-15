@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#d0e8fa"/>
+  <!-- Left ear -->
+  <polygon points="6,38 16,8 26,38" fill="#1a3a6e"/>
+  <polygon points="10,35 16,14 22,35" fill="#a8cfff"/>
+  <circle cx="16" cy="9" r="3" fill="#4f8eff"/>
+  <!-- Right ear -->
+  <polygon points="38,38 48,8 58,38" fill="#1a3a6e"/>
+  <polygon points="42,35 48,14 54,35" fill="#a8cfff"/>
+  <circle cx="48" cy="9" r="3" fill="#4f8eff"/>
+  <!-- Face circle -->
+  <circle cx="32" cy="46" r="16" fill="#1a3a6e"/>
+  <!-- なうこ "N" initial -->
+  <text x="32" y="52" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="16" fill="#4dd9f0">な</text>
+</svg>
