@@ -17,6 +17,10 @@ URL: `https://nowkoai.github.io/nauko-lp/`
 - `docs/spec.md` — デザイン仕様書（コード変更時は合わせて更新する）
 - `docs/task.md` — タスク管理ドキュメント
 
+## 行動指針
+
+ユーザーの入力が曖昧な場合は AskUserQuestion ツールを積極的に使ってください。
+
 ## 重要なルール
 
 **`index.html` が本番ファイル。** `nauko_lp.html` を編集した場合は `index.html` にも同じ変更を反映する。
