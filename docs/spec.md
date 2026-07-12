@@ -28,7 +28,7 @@
 | Profile | ON AIRバッジ + 自己紹介リード文 + 詳細テキスト |
 | Topics | 発信テーマ4分野（2列グリッド） |
 | Gallery | キャラクター画像ギャラリー（3列グリッド、ワイドアイテム対応） |
-| CTA | YouTubeチャンネル誘導ボタン |
+| CTA | YouTubeチャンネル誘導ボタン + Xアカウントリンク（`@nowko_chan`） |
 | Footer | コピーライト + ハッシュタグ |
 
 セクション間は `ribbon-divider`（ピンク/ラベンダーグラデーション + ♡アイコン）で区切る。
@@ -137,7 +137,7 @@
 ## 未設定・要確認事項（TODO）
 
 - [ ] YouTubeチャンネルURL（現在 `https://www.youtube.com/@nauko` の仮置き）
-- [ ] X（Twitter）/ その他SNSリンクを追加するか
+- [x] X（Twitter）リンクを追加 — CTAセクションに `https://x.com/nowko_chan` へのリンクを設置（`.cta-socials` / `.social-link`）
 - [x] OGP設定（SNSシェア用サムネイル・description）— `nauko_stream.png` をアイキャッチに使用。ホスティング後は `og:image` / `twitter:image` を絶対URLに変更すること
 - [ ] ホスティング先（GitHub Pages / Netlify / その他）
 - [ ] Google Analytics / アクセス解析を入れるか
@@ -152,3 +152,4 @@
 | 2026-03-15 | なうこのVTuberビジュアルに合わせカラー・コンテンツ全面改訂 |
 | 2026-03-15 | ポップかわいい系にリデザイン。Hero 2カラム化、Gallery セクション追加、style.css 分離、パーティクル・リボン等追加。仕様書をコード実装に合わせ更新 |
 | 2026-03-15 | SVGファビコン追加（`favicon.svg`）、OGP / Twitter Card メタタグ追加（アイキャッチ: `nauko_stream.png`） |
+| 2026-07-12 | CTAセクションにXアカウント（`https://x.com/nowko_chan`）へのリンクを追加 |

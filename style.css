@@ -634,6 +634,24 @@ section {
 
 .btn-yt span, .btn-yt svg { position: relative; z-index: 1; }
 
+.cta-socials { margin-top: 2rem; }
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(26,58,110,0.55);
+  text-decoration: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  transition: color 0.2s;
+}
+
+.social-link svg { width: 14px; height: 14px; }
+
+.social-link:hover { color: var(--navy); }
+
 /* ── Footer ── */
 footer {
   background: var(--navy-deep);
