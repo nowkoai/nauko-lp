@@ -17,6 +17,9 @@
   --lavender:       #a8cfff;
   --lavender-soft:  rgba(168,207,255,0.18);
   --lavender-glow:  rgba(168,207,255,0.45);
+  /* ── 瞳の色（amber）。青一色になりがちな配色に、なうこ本人の温かみを差す ── */
+  --amber:          #f2a541;
+  --amber-glow:     rgba(242,165,65,0.5);
   --char-size:      min(340px, 82vw);
 }
 
@@ -192,8 +195,9 @@ header {
   padding: 4px;
   background: conic-gradient(
     var(--pink)    0deg,
-    var(--cyan)    120deg,
-    var(--lavender) 240deg,
+    var(--cyan)    100deg,
+    var(--amber)   190deg,
+    var(--lavender) 280deg,
     var(--pink)    360deg
   );
   position: relative;
@@ -207,7 +211,7 @@ header {
   position: absolute;
   inset: -14px;
   border-radius: 50%;
-  background: radial-gradient(circle, var(--pink-glow) 0%, var(--lavender-glow) 40%, transparent 70%);
+  background: radial-gradient(circle, var(--pink-glow) 0%, var(--amber-glow) 45%, transparent 70%);
   z-index: -1;
   animation: glowPulse 3s ease-in-out infinite;
 }
@@ -304,7 +308,7 @@ header {
   margin-top: 1rem;
   font-family: 'Space Mono', monospace;
   font-size: 0.75rem;
-  color: var(--pink);
+  color: var(--amber);
   letter-spacing: 0.12em;
   position: relative;
   z-index: 2;
@@ -407,7 +411,7 @@ section {
 .profile-badge span.dot {
   width: 6px; height: 6px;
   border-radius: 50%;
-  background: var(--pink);
+  background: var(--amber);
   display: inline-block;
   animation: blink 1.4s ease-in-out infinite;
 }
@@ -453,7 +457,7 @@ section {
 .topic-num {
   font-family: 'Space Mono', monospace;
   font-size: 0.6rem;
-  color: var(--pink);
+  color: var(--amber);
   letter-spacing: 0.1em;
   margin-bottom: 0.6rem;
   position: relative;
