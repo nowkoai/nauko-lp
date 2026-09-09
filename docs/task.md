@@ -9,7 +9,7 @@
 ## タスク一覧
 
 ### 1. コンテンツ確定（ユーザー作業） — 優先度: 高
-- [ ] YouTubeチャンネルの実URLを確認・差し替え（現在 `https://www.youtube.com/@` は仮置き）
+- [ ] YouTubeチャンネルの実URLを確認・差し替え（現在 `https://www.youtube.com/@nauko` は仮置き）
 - [ ] X以外のSNS（Instagram / TikTok 等）のリンクを追加するか判断
 
 ---
